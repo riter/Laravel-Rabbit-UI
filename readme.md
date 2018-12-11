@@ -36,3 +36,14 @@
 > execute php artisan serve
 
 > open url http://127.0.0.1:8000/login
+
+## Main codes of the project
+
+>Create, delete file and send messages to RabbitMQP (DSS-Storage and DSS-Mailing)  
+>[https://github.com/riter/Laravel-Rabbit-UI/blob/master/app/Http/Controllers/HomeController.php](Manager Messages)
+
+> Send Message to RabbitMQP
+> [https://github.com/riter/Laravel-Rabbit-UI/blob/master/app/Http/Controllers/PublicityAMQP.php](Sended Message to RabbitMQP)
+
+> Listen Messages
+> [https://github.com/riter/Laravel-Rabbit-UI/blob/master/app/Http/Controllers/ManagerRabbitAMQP.php](Listen Messages)
