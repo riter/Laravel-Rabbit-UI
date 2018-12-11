@@ -35,7 +35,9 @@
 
 > execute php artisan serve
 
-> open url http://127.0.0.1:8000/login
+> open url http://127.0.0.1:8000
+
+> register your data and saved
 
 ## Main codes of the project
 
